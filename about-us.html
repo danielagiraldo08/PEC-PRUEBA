@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pec proyecto web</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./assets/LOGO.png">
+</head>
+<body>
+    <header>
+        <nav class="container nav">
+            <div class="nav-left">
+                <a href="./index.html"><img src="./assets/LOGO.png" alt="logo-mente-cosmica" class="logo"></a>
+            </div>
+            <div class="nav-right">
+                <div class="menu-desktop">
+                    <a href="./index.html" class="menu-link">Inicio</a>
+                    <a href="./about-us.html" class="menu-link">Sobre Nosotros</a>
+                    <a href="./catalog.html" class="menu-link">Tienda</a>
+                    <a href="./events.html" class="menu-link">Eventos</a>
+                    <a href="#" class="menu-link">Comunidad</a>
+                    <a href="#" class="menu-link">Blog</a>
+                    <a href="#" class="menu-link">Contacto</a>
+                </div>
+                <img src="./assets/Menu.png" alt="icono-hamburguesa" class="icon-hamburguer" id="hamburger-icon">
+                <div class="nav-extra-elements">
+                    <img src="./assets/carrito.png" alt="icono-carrito" class="carrito">
+                    <img src="./assets/persona.png" alt="icono-login" class="login">
+                </div>
+            </div>
+        </nav>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="./index.html">Inicio</a>
+            <a href="./about-us.html">Sobre Nosotros</a>
+            <a href="./catalog.html">Tienda</a>
+            <a href="./events.html">Eventos</a>
+            <a href="#">Comunidad</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+        </div>
+    </header>
+    <main>
+        <section class="header-page container">
+            <h1>SOBRE NOSOTROS</h1>
+        </section>
+        <section class="about-us container">
+            <div class="about-us-container">
+                <div class="about-us-left">
+                    <img class="about-us-img" src="./assets/about-us/about-us-img.png" alt="conocenos">
+                </div>
+                <div class="about-us-right">
+                    <h2>CONÓCENOS</h2>
+                    <p>Mente Cósmica es el resultado de la pasión compartida de un grupo de amigos por el inmenso universo y todo lo que este abarca, con un enfoque especializado en la astronomía. </p>
+                    <p>Nuestra historia se remonta a más de una década atrás, cuando nos embarcamos en la emocionante aventura de distribuir libros a nivel nacional y en poco tiempo internacional. Sin embargo, hace aproximadamente seis años, decidimos dar un salto al organizar eventos que congregan a los curiosos y apasionados por el cosmos en un mismo lugar. </p>
+                    <p>Desde entonces, hemos dedicado nuestro esfuerzo a no solo ofrecer una amplia selección de libros, que van desde el nivel más básico hasta el más avanzado, sino también a crear una comunidad comprometida de entusiastas de la astronomía. Nuestro objetivo es abrazar a todos los públicos, desde los principiantes hasta los expertos, y animarlos a sumergirse en la fascinante profundidad del conocimiento astronómico. </p>
+                </div>
+            </div>
+            <div class="about-metrics">
+                <div class="about-metrics-data">
+                    <h2>+10</h2>
+                    <h3>AÑOS</h3>
+                </div>
+                <div class="about-metrics-data">
+                    <h2>+1.000.000</h2>
+                    <h3>LIBROS VENDIDOS</h3>
+                </div>
+                <div class="about-metrics-data">
+                    <h2>+100</h2>
+                    <h3>EVENTOS</h3>
+                </div>
+            </div>
+            <div class="about-work-us-img-col">
+                <div class="about-work-us">
+                    <p><a href="#">¿Te gustaría trabajar con nosotros?</a></p>
+                </div>
+                <div class="about-work-us-2">
+                    <p><a href="#">¿Quieres publicar con nosotros?</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <h2 class="next-events">SUSCRÍBETE A NUESTRA NEWSLETTER</h2><br>
+            <div class="form-section">
+                <form class="signup-form">
+                    <h3>Descubre últimos lanzamientos y ofertas que tenemos para ti.</h3>
+                    <label for="nombre"><input type="text" id="nombre" name="nombre" placeholder="Nombres" required></label>
+                    <label for="apellido"><input type="text" id="apellido" name="apellido" placeholder="Apellidos" required></label>
+                    <label for="correo"><input type="email" id="correo" name="correo" placeholder="Correo electrónico" required></label>
+                    <label for="checkbox">
+                        <input type="checkbox" id="checkbox" name="terminos" required>
+                        Aceptas nuestros términos y condiciones.
+                    </label><br>
+                    <button class="button-newsletter" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="col-1-footer">
+                    <a href="#"><h3>Más información</h3></a>
+                    <hr>
+                    <p><a href="./index.html">Home</a></p>
+                    <p><a href="./about-us.html">Sobre Nosotros</a></p>
+                    <p><a href="./catalog.html">Tienda</a></p>
+                    <p><a href="./events.html">Eventos</a></p>
+                    <p><a href="#">Comunidad</a></p>
+                    <p><a href="#">Blog</a></p>
+                    <p><a href="#">Mi Cuenta</a></p>
+                    <p><a href="#">Contacto</a></p>
+                </div>
+                <hr>
+                <div class="col-2-footer">
+                    <a href="#"><h3>Interactúa</h3></a>
+                    <hr>
+                    <p><a href="#">Descubre los últimos eventos</a></p>
+                    <p><a href="#">Nuestros Best Seller</a></p>
+                </div>
+                <div class="col-3-footer">
+                    <img src="./assets/logo-light.png" alt="logo-mente-cosmica" class="logo">
+                </div>
+            </div>
+            <div class="footer-rrss">
+                <a href="#"><img src="./assets/rrss/TwitterX.png" alt=""></a>
+                <a href="#"><img src="./assets/rrss/Share.png" alt=""></a>
+                <a href="#"><img src="./assets/rrss/Facebook.png" alt=""></a>
+                <a href="#"><img src="./assets/rrss/LinkedIn-2.png" alt=""></a>
+                <a href="#"><img src="./assets/rrss/Instagram.png" alt=""></a>
+                <a href="#"><img src="./assets/rrss/Email.png" alt=""></a>
+            </div>
+            <hr>
+            <p>Copyright © Mente Cósmica 2024</p>
+        </footer>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

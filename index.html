@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pec proyecto web</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./assets/LOGO.png">
+</head>
+<body>
+    <header>
+        <nav class="container nav">
+            <div class="nav-left">
+                <a href="./index.html"><img src="./assets/LOGO.png" alt="logo-mente-cosmica" class="logo"></a>
+            </div>
+            <div class="nav-right">
+                <div class="menu-desktop">
+                    <a href="./index.html" class="menu-link">Inicio</a>
+                    <a href="./about-us.html" class="menu-link">Sobre Nosotros</a>
+                    <a href="./catalog.html" class="menu-link">Tienda</a>
+                    <a href="./events.html" class="menu-link">Eventos</a>
+                    <a href="#" class="menu-link">Comunidad</a>
+                    <a href="#" class="menu-link">Blog</a>
+                    <a href="#" class="menu-link">Contacto</a>
+                </div>
+                <img src="./assets/Menu.png" alt="icono-hamburguesa" class="icon-hamburguer" id="hamburger-icon">
+                <div class="nav-extra-elements">
+                    <img src="./assets/carrito.png" alt="icono-carrito" class="carrito">
+                    <img src="./assets/persona.png" alt="icono-login" class="login">
+                </div>
+            </div>
+        </nav>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="./index.html">Inicio</a>
+            <a href="./about-us.html">Sobre Nosotros</a>
+            <a href="./catalog.html">Tienda</a>
+            <a href="./events.html">Eventos</a>
+            <a href="#">Comunidad</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+        </div>
+    </header>
+    <main>
+        <section class="container slogan">
+            <div class="presentation">
+                <h1>¡Viaja a las estrellas <br>con nuestro bestseller!</h1>
+                <a href="./about-us.html" class="button learn-more">Conocer más</a>
+            </div>
+            <div class="book-month">
+                <img src="./assets/atlas-1.png" alt="libro del mes">
+            </div>
+        </section>
+        <section class="recommended-desktop">
+            <h2>RECOMENDADOS DE LA SEMANA</h2>
+        <div class="recommended-desktop-container">
+            <div class="recommended-desktop-books">
+                <img src="./assets/libro-recomendado-1.png" alt="libros-recomendados">
+                <p>Atlas de las estrellas (Larousse) ESPACIO CELESTE</p>
+                <a href="./catalog.html" class="button learn-more">Conocer más</a>
+            </div>
+            <div class="recommended-desktop-books">
+                <img src="./assets/libro-recomendado-2.png" alt="libros-recomendados">
+                <p>Atlas de las estrellas (Larousse) ESPACIO CELESTE</p>
+                <a href="./catalog.html" class="button learn-more">Conocer más</a>
+            </div>
+            <div class="recommended-desktop-books">
+                <img src="./assets/libro-recomendado-3.png" alt="libros-recomendados">
+                <p>Atlas de las estrellas (Larousse) ESPACIO CELESTE</p>
+                <a href="./catalog.html" class="button learn-more">Conocer más</a>
+            </div>
+            <div class="recommended-desktop-books">
+                <img src="./assets/libro-recomendado-4.png" alt="libros-recomendados">
+                <p>Atlas de las estrellas (Larousse) ESPACIO CELESTE</p>
+                <a href="./catalog.html" class="button learn-more">Conocer más</a>
+            </div>
+        </div>
+    </section>
+            <section class="recommended" id="recommended-slider-1">
+                <h2 class="recommended-title">Recomendados de la semana</h2>
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide">
+                            <img src="./assets/libro-recomendado-1.png" alt="libros-recomendados">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/libro-recomendado-2.png" alt="libros-recomendados">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/libro-recomendado-3.png" alt="libros-recomendados">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/libro-recomendado-4.png" alt="libros-recomendados">
+                        </div>
+                    </div>
+                </div>
+                <button class="prev button-slider" onclick="moveSlide('recommended-slider-1', -1)">&#10094;</button>
+                <button class="next button-slider" onclick="moveSlide('recommended-slider-1', 1)">&#10095;</button>
+                <a href="./catalog.html" class="button learn-more">Conocer más</a>
+            </section>
+          
+        <section class="container travel-month">
+            <div class="travel-month-left">
+                <img class="travel-month-img" src="./assets/viaje-marruecos.png" alt="viaje-marruecos">
+            </div>
+            <div class="travel-month-right">
+                <h2>Viaje a marruecos</h2>
+                <p>¿Quieres ver las estrellas desde un punto único en el desierto? Nuestros expertos estan listos para acompañarte en esta aventura que tendrá lugar en junio ¡Apúntate ya!</p>
+                <a href="./events.html" class="button learn-more">Más Información</a>
+            </div>
+        </section>
+        <section class="find-book">
+            <h3>Encuentra aquí lo que buscas</h3>
+            <div class="categories-books">
+                <a href="#" class="categories-books-ancla">Estrellas</a>
+                <a href="#" class="categories-books-ancla">Cosmos</a>
+                <a href="#" class="categories-books-ancla">Universo</a>
+                <a href="#" class="categories-books-ancla">Planeta</a>
+                <a href="#" class="categories-books-ancla">Asteroides</a>
+                <a href="#" class="categories-books-ancla">Satélites</a>
+            </div>
+            <div class="recommended" id="recommended-slider-5">
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide">
+                            <img src="./assets/libro-recomendado-1.png" alt="libros-recomendados">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/libro-recomendado-2.png" alt="libros-recomendados">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/libro-recomendado-3.png" alt="libros-recomendados">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/libro-recomendado-4.png" alt="libros-recomendados">
+                        </div>
+                    </div>
+                </div>
+                <button class="prev button-slider" onclick="moveSlide('recommended-slider-5', -1)">&#10094;</button>
+                <button class="next button-slider" onclick="moveSlide('recommended-slider-5', 1)">&#10095;</button>
+                <a href="./catalog.html" class="button learn-more">Conocer más</a>
+            </div>
+            <div class="desktop-slider">
+                <div class="desktop-slider-left">
+                    <div class="recommended recommended-desktop-slider" id="recommended-slider-3">
+                        <div class="slider-container">
+                            <div class="slider">
+                                <div class="slide">
+                                    <img src="./assets/libro-recomendado-1.png" alt="libros-recomendados">
+                                </div>
+                                <div class="slide">
+                                    <img src="./assets/libro-recomendado-2.png" alt="libros-recomendados">
+                                </div>
+                                <div class="slide">
+                                    <img src="./assets/libro-recomendado-3.png" alt="libros-recomendados">
+                                </div>
+                                <div class="slide">
+                                    <img src="./assets/libro-recomendado-4.png" alt="libros-recomendados">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="prev button-slider" onclick="moveSlide('recommended-slider-3', -1)">&#10094;</button>
+                        <button class="next button-slider" onclick="moveSlide('recommended-slider-3', 1)">&#10095;</button>
+                        </div>
+                </div>
+                <div class="desktop-slider-right">
+                    <h4>ASTEROIDES EBOOK AMENAZA DE IMPACTO DEVASTADOR</h4><br>
+                    <p>A lo largo de la historia la Tierra y la Luna han sido bombardeados por asteroides, los impactos dejaron dramáticas evidencias en forma de cráteres. </p><br>
+                    <p>Cada día más de 100 toneladas de meteoros bombardean la Tierra. Aunque la gran mayoría de estos objetos se desintegran antes de llegar a la superficie del planeta, los objetos mayores a 100 metros pueden sobrevivir al descenso, golpear el suelo, y causar destrucción dentro y alrededor del lugar del impacto. Los objetos más pequeños que entran en la atmósfera de la Tierra se desintegran antes de llegar a la superficie, aun así pueden causar daños importantes.</p>
+                    <a href="./events.html" class="button learn-more">Más Información</a>
+                </div>
+                </div>
+                </section>
+
+        <section class="next-events-mobile">
+            <h2 class="next-events">PRÓXIMOS EVENTOS</h2>
+            <div class="slider-planetas">
+                <div class="slider-2">
+                    <div class="slider-item" style="background-image: url('./assets/planeta-foto.png');">
+                        <div class="slider-caption">Planetario</div>
+                    </div>
+                    <div class="slider-item" style="background-image: url('./assets/events/cielo-estrellado.png');">
+                        <div class="slider-caption">Ver estrellas</div>
+                    </div>
+                    <div class="slider-item" style="background-image: url('./assets/events/cielo-nublado.png');">
+                        <div class="slider-caption">Noche única</div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <button class="prev-2">❮</button>
+                    <button class="next-2">❯</button>
+                </div>
+            </div>
+        </section>
+        <section class="next-events-desktop">
+            <h2>PRÓXIMOS EVENTOS</h2>
+            <div class="next-events">
+            <div class="events-image-2">
+                <p class="events-text-img"><a href="#">Eclipse solar</a></p>
+             </div>
+             <div class="events-image-3">
+                <p class="events-text-img"><a href="#">Viaje a las estrellas</a></p>
+             </div>
+             <div class="events-image-4">
+                <p class="events-text-img"><a href="#">Lluvia de meteoritos</a></p>
+             </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <h2 class="next-events">SUSCRÍBETE A NUESTRA NEWSLETTER</h2><br>
+            <div class="form-section">
+                <form class="signup-form">
+                    <h3>Descubre últimos lanzamientos y ofertas que tenemos para ti.</h3>
+                    <label for="nombre"><input type="text" id="nombre" name="nombre" placeholder="Nombres" required></label>
+                    <label for="apellido"><input type="text" id="apellido" name="apellido" placeholder="Apellidos" required></label>
+                    <label for="correo"><input type="email" id="correo" name="correo" placeholder="Correo electrónico" required></label>
+                    <label for="checkbox">
+                        <input type="checkbox" id="checkbox" name="terminos" required>
+                        Aceptas nuestros términos y condiciones.
+                    </label><br>
+                    <button class="button-newsletter" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="col-1-footer">
+                    <a href="#"><h3>Más información</h3></a>
+                    <hr>
+                    <p><a href="./index.html">Home</a></p>
+                    <p><a href="./about-us.html">Sobre Nosotros</a></p>
+                    <p><a href="./catalog.html">Tienda</a></p>
+                    <p><a href="./events.html">Eventos</a></p>
+                    <p><a href="#">Comunidad</a></p>
+                    <p><a href="#">Blog</a></p>
+                    <p><a href="#">Mi Cuenta</a></p>
+                    <p><a href="#">Contacto</a></p>
+                </div>
+                <hr>
+                <div class="col-2-footer">
+                    <a href="#"><h3>Interactúa</h3></a>
+                    <hr>
+                    <p><a href="#">Descubre los últimos eventos</a></p>
+                    <p><a href="#">Nuestros Best Seller</a></p>
+                </div>
+                <div class="col-3-footer">
+                    <img src="./assets/logo-light.png" alt="logo-mente-cosmica" class="logo">
+                </div>
+            </div>
+            <div class="footer-rrss">
+                <a href="#"><img src="./assets/rrss/TwitterX.png" alt="twitter-icon"></a>
+                <a href="#"><img src="./assets/rrss/Share.png" alt="compartir-icon"></a>
+                <a href="#"><img src="./assets/rrss/Facebook.png" alt="facebook-icon"></a>
+                <a href="#"><img src="./assets/rrss/LinkedIn-2.png" alt="linkedin-icon"></a>
+                <a href="#"><img src="./assets/rrss/Instagram.png" alt="instagram-icon"></a>
+                <a href="#"><img src="./assets/rrss/Email.png" alt="redes-sociales-icon"></a>
+            </div>
+            <hr>
+            <p>Copyright © Mente Cósmica 2024</p>
+        </footer>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pec proyecto web</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="icon" href="./assets/LOGO.png">
+    </head>
+<body>
+    <header>
+        <nav class="container nav">
+            <div class="nav-left">
+                <a href="./index.html"><img src="./assets/LOGO.png" alt="logo-mente-cosmica" class="logo"></a>
+            </div>
+            <div class="nav-right">
+                <div class="menu-desktop">
+                    <a href="./index.html" class="menu-link">Inicio</a>
+                    <a href="./about-us.html" class="menu-link">Sobre Nosotros</a>
+                    <a href="./catalog.html" class="menu-link">Tienda</a>
+                    <a href="./events.html" class="menu-link">Eventos</a>
+                    <a href="#" class="menu-link">Comunidad</a>
+                    <a href="#" class="menu-link">Blog</a>
+                    <a href="#" class="menu-link">Contacto</a>
+                </div>
+                <img src="./assets/Menu.png" alt="icono-hamburguesa" class="icon-hamburguer" id="hamburger-icon">
+                <div class="nav-extra-elements">
+                    <img src="./assets/carrito.png" alt="icono-carrito" class="carrito">
+                    <img src="./assets/persona.png" alt="icono-login" class="login">
+                </div>
+            </div>
+        </nav>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="./index.html">Inicio</a>
+            <a href="./about-us.html">Sobre Nosotros</a>
+            <a href="./catalog.html">Tienda</a>
+            <a href="./events.html">Eventos</a>
+            <a href="#">Comunidad</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+        </div>
+    </header>
+<main>
+    <section class="header-page-catalog container">
+        <h1>CATÁLOGO DE LIBROS</h1>
+    </section>
+    <section class="products-catalog">
+        <div class="products-filter-container">
+            <h2 class="product-filter-title-mobile">Productos</h2>
+            <div class="products-filters">
+                <div class="product-filter-margin-1 products-filter-text">
+                    <h2 class="product-filter-title-desktop">Productos</h2>
+                    <div class="filter-radio-ancla">
+                        <label for="mas-leidos">Más Leídos</label>
+                        <input type="radio" id="mas-leidos" name="mas-leidos-input" value="mas-leidos" checked>
+                    </div>
+                    <div class="filter-radio-ancla">
+                        <label for="recomendados">Recomendados</label>
+                        <input type="radio" id="recomendados" name="mas-leidos-input" value="recomendados">
+                    </div>
+                    <div class="filter-radio-ancla">
+                        <label for="novedades">Novedades</label>
+                        <input type="radio" id="novedades" name="mas-leidos-input" value="novedades">
+                    </div>
+                </div>
+                <div class="product-filter-margin-2 products-filter-text">
+                    <div class="filter-radio-ancla">
+                        <label for="promociones">Promociones</label>
+                        <input type="radio" id="promociones" name="mas-leidos-input" value="promociones">
+                    </div>
+                    <div class="filter-radio-ancla">
+                        <label for="todos-libros">Todos los libros</label>
+                        <input type="radio" id="todos-libros" name="mas-leidos-input" value="todos-libros">
+                    </div>
+                </div>
+            </div>
+            <div class="filter-select">
+                <div class="filter-select-container">
+                    <div class="filter-select-left">
+                        <p>Filtro - Más Leidos</p>
+                    </div>
+                    <div class="filter-select-right">
+                        <img src="./assets/catalog/icons/Chevron-Down.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-books-container">
+            <div class="catalog-books-container-left">
+
+            </div>
+            <div class="catalog-books-container-right">
+                <div class="catalog-books">
+                    <div class="catalog-books-img">
+                        <img src="./assets/catalog/libros-catalog.png" alt="libros-catalogo">
+                    </div>
+                    <div class="catalog-books-details">
+                        <h3>COSMOS</h3>
+                        <p>Carl Sagan</p>
+                        <p class="catalog-books-price">29.00€</p>
+                        <p class="catalog-books-shipping">Envío Gratis</p>
+                    </div>
+                </div>
+                <div class="catalog-books">
+                    <div class="catalog-books-img">
+                        <img src="./assets/libro-recomendado-2.png" alt="libros-catalogo">
+                    </div>
+                    <div class="catalog-books-details">
+                        <h3>ESPACIO</h3>
+                        <p>Neil deGrasse</p>
+                        <p class="catalog-books-price">48.00€</p>
+                        <p class="catalog-books-shipping">Envío Gratis</p>
+                    </div>
+                </div>
+                <div class="catalog-books">
+                    <div class="catalog-books-img">
+                        <img src="./assets/catalog/libros-catalog.png" alt="libros-catalogo">
+                    </div>
+                    <div class="catalog-books-details">
+                        <h3>AGUJEROS NEGROS</h3>
+                        <p>Stephen Hawking</p>
+                        <p class="catalog-books-price">32.00€</p>
+                        <p class="catalog-books-shipping">Envío Gratis</p>
+                    </div>
+                </div>
+                <div class="catalog-books">
+                    <div class="catalog-books-img">
+                        <img src="./assets/libro-recomendado-2.png" alt="libros-catalogo">
+                    </div>
+                    <div class="catalog-books-details">
+                        <h3>CUÁSARES</h3>
+                        <p>Brian Greene</p>
+                        <p class="catalog-books-price">19.00€</p>
+                        <p class="catalog-books-shipping">Envío Gratis</p>
+                    </div>
+                </div>
+                <div class="catalog-books">
+                    <div class="catalog-books-img">
+                        <img src="./assets/catalog/libros-catalog.png" alt="libros-catalogo">
+                    </div>
+                    <div class="catalog-books-details">
+                        <h3>SUPER NOVAS</h3>
+                        <p>Michio Kaku</p>
+                        <p class="catalog-books-price">49.00€</p>
+                        <p class="catalog-books-shipping">Envío Gratis</p>
+                    </div>
+            </div>
+            <div class="catalog-books">
+                <div class="catalog-books-img">
+                    <img src="./assets/libro-recomendado-2.png" alt="libros-catalogo">
+                </div>
+                <div class="catalog-books-details">
+                    <h3>EL INFINITO</h3>
+                    <p>Jill Tarter</p>
+                    <p class="catalog-books-price">39.00€</p>
+                    <p class="catalog-books-shipping">Envío Gratis</p>
+                </div>
+        </div>
+            </div>
+        </div>
+        <div class="catalog-pagination">
+            <div class="catalog-pagination-ancla">
+                <a href="#">Anterior</a>
+            </div>
+            <p>1 2 3 ...</p>
+            <div class="catalog-pagination-ancla">
+                <a href="#">Siguiente</a>
+            </div>
+        </div>
+    </section>
+    <section class="recommended" id="recommended-slider-2">
+        <h2 class="recommended-title">RECOMENDADOS DE LA SEMANA</h2>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="./assets/libro-recomendado-1.png" alt="Imagen 1">
+                </div>
+                <div class="slide">
+                    <img src="./assets/libro-recomendado-2.png" alt="Imagen 2">
+                </div>
+                <div class="slide">
+                    <img src="./assets/libro-recomendado-1.png" alt="Imagen 3">
+                </div>
+                <div class="slide">
+                    <img src="./assets/libro-recomendado-2.png" alt="Imagen 4">
+                </div>
+            </div>
+        </div>
+        <button class="prev button-slider" onclick="moveSlide('recommended-slider-2', -1)">&#10094;</button>
+        <button class="next button-slider" onclick="moveSlide('recommended-slider-2', 1)">&#10095;</button>
+        <a href="#" class="button learn-more">Conocer más</a>
+    </section>
+    <section class="recommended-desktop">
+        <h2>RECOMENDADOS DE LA SEMANA</h2>
+    <div class="recommended-desktop-container">
+        <div class="recommended-desktop-books">
+            <img src="./assets/libro-recomendado-1.png" alt="">
+            <p>Atlas de las estrellas (Larousse) ESPACIO CELESTE</p>
+            <a href="./catalog.html" class="button learn-more">Conocer más</a>
+        </div>
+        <div class="recommended-desktop-books">
+            <img src="./assets/libro-recomendado-2.png" alt="">
+            <p>Atlas de las estrellas (Larousse) ESPACIO CELESTE</p>
+            <a href="./catalog.html" class="button learn-more">Conocer más</a>
+        </div>
+        <div class="recommended-desktop-books">
+            <img src="./assets/libro-recomendado-3.png" alt="">
+            <p>Atlas de las estrellas (Larousse) ESPACIO CELESTE</p>
+            <a href="./catalog.html" class="button learn-more">Conocer más</a>
+        </div>
+        <div class="recommended-desktop-books">
+            <img src="./assets/libro-recomendado-4.png" alt="">
+            <p>Atlas de las estrellas (Larousse) ESPACIO CELESTE</p>
+            <a href="./catalog.html" class="button learn-more">Conocer más</a>
+        </div>
+    </div>
+</section>
+    <section class="newsletter">
+        <h2 class="next-events">SUSCRIBETE A NUESTRA NEWSLETTER</h2><br>
+        <div class="form-section">
+            <form class="signup-form">
+                <h3>Descubre últimos lanzamientos y ofertas que tenemos para ti.</h3>
+                <label for="nombre"><input type="text" id="nombre" name="nombre" placeholder="Nombres" required></label>
+                <label for="apellido"><input type="text" id="apellido" name="apellido" placeholder="Apellidos" required></label>
+                <label for="correo"><input type="email" id="correo" name="correo" placeholder="Correo electrónico" required></label>
+                <label for="checkbox">
+                    <input type="checkbox" id="checkbox" name="terminos" required>
+                    Aceptas nuestros términos y condiciones.
+                </label><br>
+                <button class="button-newsletter" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="col-1-footer">
+                <a href="#"><h3>Más información</h3></a>
+                <hr>
+                <p><a href="./index.html">Home</a></p>
+                <p><a href="./about-us.html">Sobre Nosotros</a></p>
+                <p><a href="./catalog.html">Tienda</a></p>
+                <p><a href="./events.html">Eventos</a></p>
+                <p><a href="#">Comunidad</a></p>
+                <p><a href="#">Blog</a></p>
+                <p><a href="#">Mi Cuenta</a></p>
+                <p><a href="#">Contacto</a></p>
+            </div>
+            <hr>
+            <div class="col-2-footer">
+                <a href="#"><h3>Interactúa</h3></a>
+                <hr>
+                <p><a href="#">Descubre los últimos eventos</a></p>
+                <p><a href="#">Nuestros Best Seller</a></p>
+            </div>
+            <div class="col-3-footer">
+                <img src="./assets/logo-light.png" alt="logo-mente-cosmica" class="logo">
+            </div>
+        </div>
+        <div class="footer-rrss">
+            <a href="#"><img src="./assets/rrss/TwitterX.png" alt=""></a>
+            <a href="#"><img src="./assets/rrss/Share.png" alt=""></a>
+            <a href="#"><img src="./assets/rrss/Facebook.png" alt=""></a>
+            <a href="#"><img src="./assets/rrss/LinkedIn-2.png" alt=""></a>
+            <a href="#"><img src="./assets/rrss/Instagram.png" alt=""></a>
+            <a href="#"><img src="./assets/rrss/Email.png" alt=""></a>
+        </div>
+        <hr>
+        <p>Copyright © Mente Cósmica 2024</p>
+    </footer>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

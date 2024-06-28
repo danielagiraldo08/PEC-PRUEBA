@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pec proyecto web</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="icon" href="./assets/LOGO.png">
+    </head>
+<body>
+    <header>
+        <nav class="container nav">
+            <div class="nav-left">
+                <a href="./index.html"><img src="./assets/LOGO.png" alt="logo-mente-cosmica" class="logo"></a>
+            </div>
+            <div class="nav-right">
+                <div class="menu-desktop">
+                    <a href="./index.html" class="menu-link">Inicio</a>
+                    <a href="./about-us.html" class="menu-link">Sobre Nosotros</a>
+                    <a href="./catalog.html" class="menu-link">Tienda</a>
+                    <a href="./events.html" class="menu-link">Eventos</a>
+                    <a href="#" class="menu-link">Comunidad</a>
+                    <a href="#" class="menu-link">Blog</a>
+                    <a href="#" class="menu-link">Contacto</a>
+                </div>
+                <img src="./assets/Menu.png" alt="icono-hamburguesa" class="icon-hamburguer" id="hamburger-icon">
+                <div class="nav-extra-elements">
+                    <img src="./assets/carrito.png" alt="icono-carrito" class="carrito">
+                    <img src="./assets/persona.png" alt="icono-login" class="login">
+                </div>
+            </div>
+        </nav>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="./index.html">Inicio</a>
+            <a href="./about-us.html">Sobre Nosotros</a>
+            <a href="./catalog.html">Tienda</a>
+            <a href="./events.html">Eventos</a>
+            <a href="#">Comunidad</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+        </div>
+    </header>
+    <main>
+        <section class="header-page-events">
+            <h1>PRÓXIMOS EVENTOS</h1>
+        </section>
+        <div class="titles-calendar container">
+            <h3>Junio 2024</h3>
+            <h3>Calendario</h3>
+        </div>
+        <div class="titles-calendar bg container">
+            <h4>Anterior / Siguiente mes</h4>
+            <h4>Vista: Mes</h4>
+        </div>
+        <section class="calendar-month">
+            <h2 class="actual-month">Junio</h2>
+            <div class="calendar">
+                <div class="calendar-header">
+                    <div>Dom</div>
+                    <div>Lun</div>
+                    <div>Mar</div>
+                    <div>Mier</div>
+                    <div>Jue</div>
+                    <div>Vie</div>
+                    <div>Sáb</div>
+                </div>
+                <div class="calendar-body">
+                    <div class="calendar-day">1</div>
+                    <div class="calendar-day">2</div>
+                    <div class="calendar-day">3</div>
+                    <div class="calendar-day">4</div>
+                    <div class="calendar-day">5</div>
+                    <div class="calendar-day">6</div>
+                    <div class="calendar-day">7</div>
+                    <div class="calendar-day">8</div>
+                    <div class="calendar-day">9</div>
+                    <div class="calendar-day">10</div>
+                    <div class="calendar-day">11</div>
+                    <div class="calendar-day">12</div>
+                    <div class="calendar-day">13</div>
+                    <div class="calendar-day">14</div>
+                    <div class="calendar-day">15</div>
+                    <div class="calendar-day">16</div>
+                    <div class="calendar-day">17</div>
+                    <div class="calendar-day">18</div>
+                    <div class="calendar-day">19</div>
+                    <div class="calendar-day">20</div>
+                    <div class="calendar-day">21</div>
+                    <div class="calendar-day">22</div>
+                    <div class="calendar-day">23</div>
+                    <div class="calendar-day">24</div>
+                    <div class="calendar-day">25</div>
+                    <div class="calendar-day">26</div>
+                    <div class="calendar-day day-check">27</div>
+                    <div class="calendar-day">28</div>
+                    <div class="calendar-day">29</div>
+                    <div class="calendar-day">30</div>
+                </div>
+            </div>
+        </section>
+            <div class="next-events">
+                <div class="events-image-2">
+                    <p class="events-text-img"><a href="#">Eclipse solar</a></p>
+                 </div>
+                 <div class="events-image-3">
+                    <p class="events-text-img"><a href="#">Viaje a las estrellas</a></p>
+                 </div>
+                 <div class="events-image-4">
+                    <p class="events-text-img"><a href="#">Lluvia de meteoritos</a></p>
+                 </div>
+                </div>
+            <section class="newsletter">
+                <h2 class="next-events">SUSCRIBETE A NUESTRA NEWSLETTER</h2><br>
+                <div class="form-section">
+                    <form class="signup-form">
+                        <h3>Descubre últimos lanzamientos y ofertas que tenemos para ti.</h3>
+                        <label for="nombre"><input type="text" id="nombre" name="nombre" placeholder="Nombres" required></label>
+                        <label for="apellido"><input type="text" id="apellido" name="apellido" placeholder="Apellidos" required></label>
+                        <label for="correo"><input type="email" id="correo" name="correo" placeholder="Correo electrónico" required></label>
+                        <label for="checkbox">
+                            <input type="checkbox" id="checkbox" name="terminos" required>
+                            Aceptas nuestros términos y condiciones.
+                        </label><br>
+                        <button class="button-newsletter" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer-container">
+                    <div class="col-1-footer">
+                        <a href="#"><h3>Más información</h3></a>
+                        <hr>
+                        <p><a href="./index.html">Home</a></p>
+                        <p><a href="./about-us.html">Sobre Nosotros</a></p>
+                        <p><a href="./catalog.html">Tienda</a></p>
+                        <p><a href="./events.html">Eventos</a></p>
+                        <p><a href="#">Comunidad</a></p>
+                        <p><a href="#">Blog</a></p>
+                        <p><a href="#">Mi Cuenta</a></p>
+                        <p><a href="#">Contacto</a></p>
+                    </div>
+                    <hr>
+                    <div class="col-2-footer">
+                        <a href="#"><h3>Interactúa</h3></a>
+                        <hr>
+                        <p><a href="#">Descubre los últimos eventos</a></p>
+                        <p><a href="#">Nuestros Best Seller</a></p>
+                    </div>
+                    <div class="col-3-footer">
+                        <img src="./assets/logo-light.png" alt="logo-mente-cosmica" class="logo">
+                    </div>
+                </div>
+                <div class="footer-rrss">
+                    <a href="#"><img src="./assets/rrss/TwitterX.png" alt=""></a>
+                    <a href="#"><img src="./assets/rrss/Share.png" alt=""></a>
+                    <a href="#"><img src="./assets/rrss/Facebook.png" alt=""></a>
+                    <a href="#"><img src="./assets/rrss/LinkedIn-2.png" alt=""></a>
+                    <a href="#"><img src="./assets/rrss/Instagram.png" alt=""></a>
+                    <a href="#"><img src="./assets/rrss/Email.png" alt=""></a>
+                </div>
+                <hr>
+                <p>Copyright © Mente Cósmica 2024</p>
+            </footer>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
